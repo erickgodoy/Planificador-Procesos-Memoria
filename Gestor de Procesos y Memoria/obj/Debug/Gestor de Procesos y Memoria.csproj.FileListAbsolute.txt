@@ -1,0 +1,10 @@
+C:\Users\ASUS\Desktop\C#\Gestor de Procesos y Memoria\Gestor de Procesos y Memoria\bin\Debug\Gestor de Procesos y Memoria.exe
+C:\Users\ASUS\Desktop\C#\Gestor de Procesos y Memoria\Gestor de Procesos y Memoria\bin\Debug\Gestor de Procesos y Memoria.pdb
+C:\Users\ASUS\Desktop\C#\Gestor de Procesos y Memoria\Gestor de Procesos y Memoria\obj\Debug\Gestor de Procesos y Memoria.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\C#\Gestor de Procesos y Memoria\Gestor de Procesos y Memoria\obj\Debug\Gestor_de_Procesos_y_Memoria.Form1.resources
+C:\Users\ASUS\Desktop\C#\Gestor de Procesos y Memoria\Gestor de Procesos y Memoria\obj\Debug\Gestor_de_Procesos_y_Memoria.Properties.Resources.resources
+C:\Users\ASUS\Desktop\C#\Gestor de Procesos y Memoria\Gestor de Procesos y Memoria\obj\Debug\Gestor de Procesos y Memoria.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\C#\Gestor de Procesos y Memoria\Gestor de Procesos y Memoria\obj\Debug\Gestor de Procesos y Memoria.exe
+C:\Users\ASUS\Desktop\C#\Gestor de Procesos y Memoria\Gestor de Procesos y Memoria\obj\Debug\Gestor de Procesos y Memoria.pdb
+C:\Users\ASUS\Desktop\C#\Gestor de Procesos y Memoria\Gestor de Procesos y Memoria\obj\Debug\Gestor_de_Procesos_y_Memoria.PlanificadorDeProcesos.resources
+C:\Users\ASUS\Desktop\C#\Gestor de Procesos y Memoria\Gestor de Procesos y Memoria\obj\Debug\Gestor_de_Procesos_y_Memoria.PlanificadorDeMemoria.resources
