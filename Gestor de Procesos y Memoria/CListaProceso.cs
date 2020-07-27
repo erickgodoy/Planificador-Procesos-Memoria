@@ -122,8 +122,6 @@ namespace Gestor_de_Procesos_y_Memoria
         public void FCFS()
         {
             int n = 0;
-            int total = SumTEjec();
-
             aux = cabeza;
 
             while (aux != null)
@@ -177,19 +175,15 @@ namespace Gestor_de_Procesos_y_Memoria
                 tmp.COM = true;
             }
         }
-
-        public void SRT2()
+        public void SRT()
         {
             int n = 0;
             int total;
             total = SumTEjec();
-
             aux = cabeza.Siguiente;
             aux.TI = n;
-
             int min;
             CNodoProceso tmp = new CNodoProceso();
-
             while (n < total)
             {
                 if (aux.Siguiente != null)
@@ -260,70 +254,7 @@ namespace Gestor_de_Procesos_y_Memoria
             }
 
         }
-
-        public void SRT()
-        {
-            int n = 0;
-            int total;
-            total = SumTEjec();
-
-            int min;
-            CNodoProceso tmp = new CNodoProceso();
-
-
-            while (n < total)
-            {
-                aux2 = cabeza.Siguiente;
-                while (aux2.Siguiente != null)
-                {
-                    aux2 = aux2.Siguiente;
-                }
-
-                while (aux2.TLL > n && aux2.Anterior != cabeza)
-                {
-                    aux2 = aux2.Anterior;
-                }
-
-                while (aux2.COM == true && aux2.Anterior != cabeza)
-                {
-                    aux2 = aux2.Anterior;
-                }
-
-                min = aux2.TEJAUX;
-                tmp = aux2;
-
-                while (aux2.Anterior != cabeza)
-                {
-                    if (min > aux2.Anterior.TEJAUX && aux2.COM != true)
-                    {
-                        min = aux2.TEJAUX;
-                        tmp = aux2;
-                    }
-                    aux2 = aux2.Anterior;
-                }
-                if (tmp.TI == 0 && tmp != cabeza.Siguiente)
-                {
-                    tmp.TI = n;
-                }
-                tmp.TEJAUX--;
-                n++;
-                if (tmp.TEJAUX == 0)
-                {
-                    tmp.TF = n;
-                    tmp.COM = true;
-                }
-            }
-
-            aux = cabeza.Siguiente;
-            while (aux != null)
-            {
-                aux.TR = aux.TF - aux.TLL;
-                aux.TE = aux.TI - aux.TLL;
-                aux = aux.Siguiente;
-            }
-
-        }
-
+        
         public void InsertarRR(CNodoProceso c)
         {
             aux = cabeza;

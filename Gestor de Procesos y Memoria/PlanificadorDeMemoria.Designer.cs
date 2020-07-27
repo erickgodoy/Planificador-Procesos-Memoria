@@ -422,7 +422,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(18, 21);
             this.label9.TabIndex = 49;
-            this.label9.Text = "T";
+            this.label9.Text = "_";
             // 
             // label10
             // 
@@ -431,9 +431,9 @@
             this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Location = new System.Drawing.Point(593, 417);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(22, 21);
+            this.label10.Size = new System.Drawing.Size(18, 21);
             this.label10.TabIndex = 50;
-            this.label10.Text = "T ";
+            this.label10.Text = "_";
             // 
             // PlanificadorDeMemoria
             // 
