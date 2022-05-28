@@ -10,7 +10,7 @@ Autor: Erick Godoy
 
 En esta ventana podremos ingresar los datos de los procesos en cola y escoger con que política de planificación se realizara la gestión de procesos: 
 
-    - First Come First Served (FCFS
+    - First Come First Served (FCFS)
     - Shorest Process Next (SPN)
     - Short Remaining Time (SRT)
     - Round Robin (RR)
